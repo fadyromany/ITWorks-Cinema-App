@@ -1,0 +1,14 @@
+C:\Users\FADY\source\repos\ITWorks.ELcinema.Data.EF\obj\Debug\ITWorks.ELcinema.Data.EF.csproj.CoreCompileInputs.cache
+C:\Users\FADY\source\repos\ITWorks.ELcinema.Data.EF\bin\Debug\ITWorks.ELcinema.Data.EF.dll.config
+C:\Users\FADY\source\repos\ITWorks.ELcinema.Data.EF\bin\Debug\ITWorks.ELcinema.Data.EF.dll
+C:\Users\FADY\source\repos\ITWorks.ELcinema.Data.EF\bin\Debug\ITWorks.ELcinema.Data.EF.pdb
+C:\Users\FADY\source\repos\ITWorks.ELcinema.Data.EF\bin\Debug\EntityFramework.dll
+C:\Users\FADY\source\repos\ITWorks.ELcinema.Data.EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FADY\source\repos\ITWorks.ELcinema.Data.EF\bin\Debug\ItworksElcenima.Domain.dll
+C:\Users\FADY\source\repos\ITWorks.ELcinema.Data.EF\bin\Debug\ItworksElcenima.Domain.pdb
+C:\Users\FADY\source\repos\ITWorks.ELcinema.Data.EF\bin\Debug\EntityFramework.xml
+C:\Users\FADY\source\repos\ITWorks.ELcinema.Data.EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FADY\source\repos\ITWorks.ELcinema.Data.EF\obj\Debug\ITWorks.ELcinema.Data.EF.csproj.CopyComplete
+C:\Users\FADY\source\repos\ITWorks.ELcinema.Data.EF\obj\Debug\ITWorks.ELcinema.Data.EF.dll
+C:\Users\FADY\source\repos\ITWorks.ELcinema.Data.EF\obj\Debug\ITWorks.ELcinema.Data.EF.pdb
+C:\Users\FADY\source\repos\ITWorks.ELcinema.Data.EF\obj\Debug\ITWorks.ELcinema.Data.EF.csproj.AssemblyReference.cache

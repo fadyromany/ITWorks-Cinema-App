@@ -1,0 +1,38 @@
+﻿@using ITworks.Elcinema.Web
+@model ItworksElcenima.Domain.Models.Movie
+
+@{
+    ViewBag.Title = "Edit Movie"; // el tab eli fi el browser
+}
+
+<h2>Edit Movie</h2>
+
+<form method="post">
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name)
+        @Html.EditorFor(m => m.Name, new { HtmlAttributes = new { @class = "form-control" } }) // touse bootstrab
+        @Html.ValidationMessageFor(m => m.Name)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Relasedate)
+        @Html.EditorFor(m => m.Relasedate, new { HtmlAttributes = new { @class = "form-control" } }) // touse bootstrab
+        @Html.ValidationMessageFor(m => m.Relasedate)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.GrossRevenue)
+        @Html.EditorFor(m => m.GrossRevenue, new { HtmlAttributes = new { @class = "form-control" } }) // touse bootstrab
+        @Html.ValidationMessageFor(m => m.GrossRevenue)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.CountryId)
+        @Html.DropDownListFor(m=>m.CountryId,(IEnumerable<SelectListItem>)ViewBag.countryid,"please select")
+        @Html.ValidationMessageFor(m => m.CountryId)
+    </div>
+
+    <div>
+        <input type="submit" value="save" class="btn btn-default" />
+    </div>
+</form>

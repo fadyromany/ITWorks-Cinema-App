@@ -1,0 +1,38 @@
+﻿@using ITworks.Elcinema.Web
+@model IEnumerable<ItworksElcenima.Domain.Models.Movie>
+ 
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Movies List</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th> @Html.DisplayNameFor(m => m.Name)</th>
+            <th> @Html.DisplayNameFor(m => m.CountryId)</th>
+            <th> @Html.DisplayNameFor(m => m.Relasedate)</th>
+            <th> @Html.DisplayNameFor(m => m.GrossRevenue)</th>
+            <th> Edite</th>
+            <th> Delete</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td> @Html.DisplayFor(m => item.Name)</td>
+            <td> @Html.DisplayFor(m => item.Country.Name)</td>
+            <td> @Html.DisplayFor(m => item.Relasedate)</td>
+            <td> @Html.DisplayFor(m => item.GrossRevenue)</td>
+            <td> @Html.ActionLink("Edit", "Edit", new { id = item.Id })</td>
+            <td> @Html.ActionLink("Delete", "Delete", new { id = item.Id })</td>
+        </tr>
+        }
+
+    </tbody>
+</table>
+
